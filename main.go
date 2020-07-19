@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"net/http"
+)
 
 func main()  {
-	fmt.Println("Not initialized yet!!")
+	http.Handle("/api/v1/fetch-bill", controllers.FetchBill)
 }

@@ -1,3 +1,3 @@
-module github.com/dwibedis/setu-api
+module github.com/billing
 
 go 1.14
